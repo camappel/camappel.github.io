@@ -178,10 +178,10 @@ body {
     background: silver;
     color: white;
     width: 100vw;
-    /* height: 5vw; */
     font-size: 15px;
     bottom: 0;
-    /* line-height: 20px; */
+    height: 3vh; /* NEW: set height explicitly */
+    line-height: 3vh; /* NEW: center text vertically */
 }
 
 .footer_text {

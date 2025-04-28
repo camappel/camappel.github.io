@@ -55,7 +55,7 @@ body {
     margin-bottom: 0;
     justify-content: space-between;
     display: flex;
-    height: 30vh;
+    height: 25vh;
     overflow: scroll;
     width: 60vw;
     padding: 1vh;
@@ -71,7 +71,7 @@ body {
     margin-bottom: 0;
     justify-content: space-between;
     display: flex;
-    height: 20vh;
+    height: 25vh;
     overflow: scroll;
     width: 60vw;
     padding: 1vh;
@@ -95,9 +95,13 @@ body {
     outline: 0px solid black;
 }
 
-.proj_title a {
-  color: blue;
-  text-decoration: underline;
+.proj_title {
+    width: 100%;
+    font-weight: 600;
+    font-size: 2.5vh;
+    outline: 0px solid black;
+    color: blue;
+    text-decoration: underline;
 }
 
 .desc_text {
